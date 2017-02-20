@@ -1,3 +1,3 @@
-# MCSheetAlertView
-自定义的底部弹出视图框架
-![image](https://github.com/mafangchao/MCLeftSilder/blob/master/aaa.gif)
+# MCAssistiveTouch
+自定义的全局手势按钮
+![image](https://github.com/mafangchao/MCAssistiveTouch/blob/master/quanjushoushi.gif)

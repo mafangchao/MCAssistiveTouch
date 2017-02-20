@@ -7,16 +7,24 @@
 //
 
 #import "AppDelegate.h"
+#import "MCAssistiveTouch.h"
 
 @interface AppDelegate ()
-
+{
+    MCAssistiveTouch *_win;
+}
 @end
 
 @implementation AppDelegate
 
 
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    [self performSelector:@selector(setNew) withObject:nil afterDelay:3];
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -15,6 +15,8 @@
 		9D88DFCC1DB482EA002FCCD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D88DFCA1DB482EA002FCCD9 /* LaunchScreen.storyboard */; };
 		9D88DFD71DB482EA002FCCD9 /* text1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D88DFD61DB482EA002FCCD9 /* text1Tests.m */; };
 		9D88DFE21DB482EA002FCCD9 /* text1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D88DFE11DB482EA002FCCD9 /* text1UITests.m */; };
+		9DA897071E5A8CBD00844FB6 /* MCAssistiveTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA897061E5A8CBD00844FB6 /* MCAssistiveTouch.m */; };
+		9DA8970A1E5A931D00844FB6 /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA897091E5A931D00844FB6 /* MCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		9D88DFDD1DB482EA002FCCD9 /* text1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = text1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D88DFE11DB482EA002FCCD9 /* text1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = text1UITests.m; sourceTree = "<group>"; };
 		9D88DFE31DB482EA002FCCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA897051E5A8CBD00844FB6 /* MCAssistiveTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAssistiveTouch.h; sourceTree = "<group>"; };
+		9DA897061E5A8CBD00844FB6 /* MCAssistiveTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAssistiveTouch.m; sourceTree = "<group>"; };
+		9DA897081E5A931D00844FB6 /* MCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
+		9DA897091E5A931D00844FB6 /* MCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				9D88DFC01DB482EA002FCCD9 /* AppDelegate.m */,
 				9D88DFC21DB482EA002FCCD9 /* ViewController.h */,
 				9D88DFC31DB482EA002FCCD9 /* ViewController.m */,
+				9DA897081E5A931D00844FB6 /* MCViewController.h */,
+				9DA897091E5A931D00844FB6 /* MCViewController.m */,
+				9DA897051E5A8CBD00844FB6 /* MCAssistiveTouch.h */,
+				9DA897061E5A8CBD00844FB6 /* MCAssistiveTouch.m */,
 				9D88DFC51DB482EA002FCCD9 /* Main.storyboard */,
 				9D88DFC81DB482EA002FCCD9 /* Assets.xcassets */,
 				9D88DFCA1DB482EA002FCCD9 /* LaunchScreen.storyboard */,
@@ -273,9 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA8970A1E5A931D00844FB6 /* MCViewController.m in Sources */,
 				9D88DFC41DB482EA002FCCD9 /* ViewController.m in Sources */,
 				9D88DFC11DB482EA002FCCD9 /* AppDelegate.m in Sources */,
 				9D88DFBE1DB482EA002FCCD9 /* main.m in Sources */,
+				9DA897071E5A8CBD00844FB6 /* MCAssistiveTouch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +519,7 @@
 				9D88DFE81DB482EA002FCCD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D88DFE91DB482EA002FCCD9 /* Build configuration list for PBXNativeTarget "text1Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				9D88DFEB1DB482EA002FCCD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D88DFEC1DB482EA002FCCD9 /* Build configuration list for PBXNativeTarget "text1UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				9D88DFEE1DB482EA002FCCD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

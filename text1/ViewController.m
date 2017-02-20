@@ -7,16 +7,30 @@
 //
 
 #import "ViewController.h"
+#import "MCAssistiveTouch.h"
 
 @interface ViewController ()
-
+{
+    MCAssistiveTouch *_win;
+}
 @end
 
 @implementation ViewController
-
+-(void)setNew
+{
+    
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+}
+
+//// 触摸一下屏幕 就会显示
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+
+    [[MCAssistiveTouch sharedInstance] show];
+
 }
 
 
